@@ -18,17 +18,18 @@ function Apostila04_ativ(){
       <Text style={styles.txtSaida}>
          {mensagem}
          </Text>
-      <Text style={styles.texto}>
+      <Text style={styles.txtLeft}>
           Nome
          </Text>
       <TextInput 
       style={styles.txtEntrada}
+      
       onChangeText={(e) => setNome(e)}
       value={nome}
       />
 
 
-      <Text style={styles.texto}>
+      <Text style={styles.txtLeft}>
          Sobrenome
          </Text>
       <TextInput 

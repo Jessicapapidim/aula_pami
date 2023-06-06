@@ -62,6 +62,11 @@ const styles = StyleSheet.create({
         color: '#FFCDD2',
         textAlign: 'center',
       },
+      txtLeft: {
+        fontSize: 19,
+        textAlign: 'right',
+        color:'#000',
+      },
 });
 
 
