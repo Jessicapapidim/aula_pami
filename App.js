@@ -5,12 +5,13 @@ import Constants from 'expo-constants';
 let corAPP = '#000'
 // import Apostila03 from './components/apostila_003';
 // import Apostila03A from './components/apostila_apo03avancado';
-import Apostila04 from './components/apostila_004';
+//import Apostila04 from './components/apostila_004_ativ';
+import Apostila04_ativ from './components/apostila_004_ativ';
 let corApp = '#000';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Apostila04 />
+      <Apostila04_ativ/>
       <StatusBar style={corAPP === '#000' ? "light" : "dark"} />
     </View>
   );
