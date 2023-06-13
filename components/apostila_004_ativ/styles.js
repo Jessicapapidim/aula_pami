@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#b71c1c',
   },
+
   txtEntrada: {
     borderWidth: 4, 
     textAlign: 'center', 
@@ -23,8 +24,9 @@ const styles = StyleSheet.create({
     height: 40, 
     color: '#E53935', 
     borderRadius: 10, 
-    width:'70%',
+    width:'98%',
     }, 
+
     txtSaida: {
       margin: 24, 
       fontSize: 22, 
@@ -32,6 +34,7 @@ const styles = StyleSheet.create({
       textAlign: 'center', 
       color: '#E53935',     
   }, 
+
   button: {
     backgroundColor: '#E53935', 
     height: 40, 
@@ -39,11 +42,13 @@ const styles = StyleSheet.create({
     borderRadius: 10, 
     marginTop: 20, 
     }, 
+    
     textButton: {
     fontSize: 22, 
     color: '#FFCDD2', 
     textAlign: 'center', 
     }, 
+    
     button: {
       backgroundColor: '#E53935', 
       height: 40, 
@@ -52,21 +57,27 @@ const styles = StyleSheet.create({
       marginTop: 20, 
       width:'70%',
       }, 
+
       textButton: {
       fontSize: 22, 
       color: '#FFCDD2', 
       textAlign: 'center', 
       }, 
+
       textLabel: {
         fontSize: 18,
         color: '#FFCDD2',
         textAlign: 'center',
       },
+
       txtLeft: {
-        fontSize: 19,
-        textAlign: 'right',
-        color:'#000',
+        alignSelf: 'flex-start',
+        marginLeft: 11,
+        fontSize: 18,
+        color: '#B71C1C',
       },
+
+      
 });
 
 
