@@ -5,7 +5,7 @@ import styles from './styles';
 function Apostila04_ativ(){
   const[nome,setNome]= useState('');
   const[snome, setSnome]=useState('');
-  const[mensagem, setMensagem] =useState('aqui aparece o texto digitado!');
+  const[mensagem, setMensagem] =useState('O texto digitado aparece aqui:');
   
   function apresentaMensagem(){
     setMensagem(nome + ' ' + snome);
@@ -14,24 +14,19 @@ function Apostila04_ativ(){
   }
   return(
     <View style={styles.container}>
-      <Text style={styles.texto}>Exemplo 04</Text>
+      <Text style={styles.titulo}>Atividade-Entrada de Caracteres</Text>
       <Text style={styles.txtSaida}>
          {mensagem}
          </Text>
-      <Text style={styles.txtLeft}>
-          Nome
-         </Text>
+      <Text style={styles.texto}>Digite o seu nome:</Text>
       <TextInput 
       style={styles.txtEntrada}
-      
       onChangeText={(e) => setNome(e)}
       value={nome}
       />
 
 
-      <Text style={styles.txtLeft}>
-         Sobrenome
-         </Text>
+      <Text style={styles.texto}>Digite o seu sobrenome:</Text>
       <TextInput 
       style={styles.txtEntrada}
       onChangeText={(i) => setSnome(i)}
@@ -42,7 +37,7 @@ function Apostila04_ativ(){
 
       <TouchableOpacity style={styles.button}
       onPress={()=> apresentaMensagem()}>
-        <Text style={styles.textButton}>Mostrar valor digitado</Text>
+        <Text style={styles.textButton}>Mostrar valor</Text>
       </TouchableOpacity>
     </View>
   );

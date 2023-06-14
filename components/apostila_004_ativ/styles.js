@@ -6,77 +6,64 @@ const styles = StyleSheet.create({
     flex: 1, 
     justifyContent: 'center', 
     alignItems: 'center',
-    borderStartColor: '#ffcdd2',
-    backgroundColor: '#ffcdd2',
+    borderStartColor: '#FF007F',
+    backgroundColor: '#FFCBDB',
      
   },
-  texto:{
+  titulo:{
+    /*alignSelf:'flex-start',*/
     fontSize: 26,
     fontWeight: 'bold',
-    color: '#b71c1c',
+    color: '#FF007F',
+   
+   
   },
-
+  texto:{
+    alignSelf:'flex-start',
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: '#FF007F',
+    marginLeft: 20,
+    marginTop:10,
+   
+  },
+  
   txtEntrada: {
     borderWidth: 4, 
     textAlign: 'center', 
     fontSize: 22, 
-    borderColor: '#B71C1C', 
+    borderColor: '#FFFFFF', 
     height: 40, 
-    color: '#E53935', 
+    color: '#FFFFFF', 
     borderRadius: 10, 
-    width:'98%',
+    width:'90%',
     }, 
-
     txtSaida: {
       margin: 24, 
       fontSize: 22, 
       fontWeight: 'bold', 
       textAlign: 'center', 
-      color: '#E53935',     
+      color: '#FFFFFF',     
   }, 
 
-  button: {
-    backgroundColor: '#E53935', 
-    height: 40, 
-    justifyContent: 'center', 
-    borderRadius: 10, 
-    marginTop: 20, 
-    }, 
-    
-    textButton: {
-    fontSize: 22, 
-    color: '#FFCDD2', 
-    textAlign: 'center', 
-    }, 
-    
     button: {
-      backgroundColor: '#E53935', 
+      backgroundColor: '#FFFFFF', 
       height: 40, 
       justifyContent: 'center', 
       borderRadius: 10, 
       marginTop: 20, 
       width:'70%',
       }, 
-
       textButton: {
       fontSize: 22, 
-      color: '#FFCDD2', 
+      color: '#993399', 
       textAlign: 'center', 
       }, 
-
       textLabel: {
         fontSize: 18,
-        color: '#FFCDD2',
+        color: '#FFFFFF',
         textAlign: 'center',
       },
-
-      txtLeft: {
-        alignSelf: 'flex-start',
-        marginLeft: 11,
-        fontSize: 18,
-        color: '#B71C1C',
-      },
-
       
 });
 
