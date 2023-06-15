@@ -42,6 +42,12 @@ const styles = StyleSheet.create({
       fontSize: 65, 
       padding: 15, 
     }, 
+    resultado:{
+      alignSelf: 'center',
+      fontSize: 40,
+      color: '#AAA'
+
+    }
   });
 
   export default styles;
